@@ -1,4 +1,5 @@
 function Profile(props : any){
+    props;
     return( 
         <>
     

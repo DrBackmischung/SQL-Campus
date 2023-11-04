@@ -1,4 +1,5 @@
 function Dashboard(props : any){
+    props;
     return( 
         <>
     

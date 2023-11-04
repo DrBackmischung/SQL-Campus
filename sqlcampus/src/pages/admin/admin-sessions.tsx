@@ -1,4 +1,5 @@
 function AdminSessions(props : any){
+    props;
     return( 
         <>
     

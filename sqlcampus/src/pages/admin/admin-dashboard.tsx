@@ -1,4 +1,5 @@
 function AdminDashboard(props : any){
+    props;
     return( 
         <>
     

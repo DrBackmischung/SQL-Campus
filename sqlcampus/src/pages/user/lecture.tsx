@@ -1,4 +1,5 @@
 function Lecture(props : any){
+    props;
     return( 
         <>
     

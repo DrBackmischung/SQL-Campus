@@ -1,4 +1,5 @@
 function Home(props : any){
+    props;
     return( 
         <>
     

@@ -1,4 +1,5 @@
 function Scoreboard(props : any){
+    props;
     return( 
         <>
     
