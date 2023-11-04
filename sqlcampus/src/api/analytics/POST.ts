@@ -1,2 +1,2 @@
-import { BASE_URL } from "../../constants";
+import { BASE_URL } from "@/constants";
 BASE_URL;
