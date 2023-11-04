@@ -1,10 +1,12 @@
 {
+  "name": "sqlcampus",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "lint": "next lint"
   },
   "dependencies": {
     "@adobe/react-spectrum": "^3.31.1",
