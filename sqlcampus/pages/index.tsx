@@ -1,13 +1,20 @@
 import Layout from '../components/layout/Layout'
+import '../i18n.js'
+import { useTranslation } from 'react-i18next';
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hi there, welcome to sql-campus.de! 🎉</h1>
-    <br></br>
-    <br></br>
-    <p>This site is currently in development. Please check again later 🫶🏼</p>
-    <p>For further questions, please contact info@sql-campus.de ✉️</p>
-  </Layout>
-)
+const IndexPage = () => {
+
+  const {t} = useTranslation();
+
+  return (
+    <Layout title={"SQL-Campus | "+t("title_home")}>
+      <h1>{t("temporary_title")}</h1>
+      <br></br>
+      <br></br>
+      <p>{t("temporary_home")}</p>
+      <p>{t("temporary_mail")}</p>
+    </Layout>
+  );
+}
 
 export default IndexPage
