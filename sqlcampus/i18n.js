@@ -42,7 +42,7 @@ i18n
             title_video: "Video",
             title_videos: "Videos",
             temporary_title: "Hi, willkommen auf sql-campus.de! 🎉",
-            temporary_home: "Diese Seite wird gerade entwickelt. Wir bitten um Verständnix, komm später wieder. 🫶🏼",
+            temporary_home: "Diese Seite wird gerade entwickelt. Wir bitten um Entschuldigung, komm zu einem späteren Zeitpunkt wieder. 🫶🏼",
             temporary_mail: "Bei Fragen, wende dich an info@sql-campus.de! ✉️"
         }
       }
