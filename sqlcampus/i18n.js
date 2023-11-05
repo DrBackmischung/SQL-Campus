@@ -24,7 +24,8 @@ i18n
             title_videos: "Videos",
             temporary_title: "Hi there, welcome to sql-campus.de! 🎉",
             temporary_home: "This site is currently in development. We are sorry for the inconvinience, please check again later. 🫶🏼",
-            temporary_mail: "For further questions, please contact info@sql-campus.de! ✉️"
+            temporary_mail: "For further questions, please contact info@sql-campus.de! ✉️",
+            legal: "This website complies with Germany law. This is the legal notice as stated in §5 Telemediengesetz."
         }
       },
       de: {
@@ -43,7 +44,8 @@ i18n
             title_videos: "Videos",
             temporary_title: "Hi, willkommen auf sql-campus.de! 🎉",
             temporary_home: "Diese Seite wird gerade entwickelt. Wir bitten um Entschuldigung, komm zu einem späteren Zeitpunkt wieder. 🫶🏼",
-            temporary_mail: "Bei Fragen, wende dich an info@sql-campus.de! ✉️"
+            temporary_mail: "Bei Fragen, wende dich an info@sql-campus.de! ✉️",
+            legal: ""
         }
       }
     },
