@@ -1,5 +1,5 @@
 import Layout from '../../components/layout/Layout'
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 
 const WithStaticProps = (props: any) => {
 
@@ -7,8 +7,8 @@ const WithStaticProps = (props: any) => {
 
     props;
     return (
-        <Layout title={"SQL-Campus | "+t("title_courses")}>
-      
+        <Layout title={"SQL-Campus | "+t("title_course")}>
+        
         </Layout>
     )
 }
