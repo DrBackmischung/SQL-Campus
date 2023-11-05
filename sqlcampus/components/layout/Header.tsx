@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import { useTranslation } from "next-i18next";
+import { useTranslation } from 'react-i18next';
 import AppBar from '@mui/material/AppBar';
-import { Box, Button, ButtonGroup, Container, IconButton, Link, Menu, MenuProps, Toolbar, Typography } from '@mui/material';
+import { Box, Button, ButtonGroup, Container, Link, Toolbar } from '@mui/material';
 
 type Props = {
   title?: string
@@ -76,7 +76,9 @@ const Header = ({ title }: Props) => {
                             sx={{ my: 2, color: "black", display: "block" }}
                             variant="text"
                             component={Link}
-                            onClick={() => {i18n.changeLanguage("en")}}
+                            onClick={() => {
+                                i18n.changeLanguage("en");
+                            }}
                         >
                             <img src="https://flagicons.lipis.dev/flags/4x3/us.svg" width={20}></img>
                         </Button>
@@ -87,7 +89,9 @@ const Header = ({ title }: Props) => {
                             sx={{ my: 2, color: "black", display: "block" }}
                             variant="text"
                             component={Link}
-                            onClick={() => {i18n.changeLanguage("de")}}
+                            onClick={() => {
+                                i18n.changeLanguage("de");
+                            }}
                         >
                             <img src="https://flagicons.lipis.dev/flags/4x3/de.svg" width={20}></img>
                         </Button>

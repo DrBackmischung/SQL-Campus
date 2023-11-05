@@ -1,7 +1,7 @@
 import { Container, Grid } from '@mui/material';
 import Layout from '../components/layout/Layout'
 import '../i18n.js'
-import { useTranslation } from 'next-i18next';
+import { useTranslation } from 'react-i18next';
 
 const IndexPage = () => {
 
