@@ -6,7 +6,7 @@ const IndexPage = () => (
     <br></br>
     <br></br>
     <p>This site is currently in development. Please check again later 🫶🏼</p>
-    <p>For further questions, please contact <a href='mailto:info@sql-campus.de'>info@sql-campus.de ✉️</a></p>
+    <p>For further questions, please contact info@sql-campus.de ✉️</p>
   </Layout>
 )
 
