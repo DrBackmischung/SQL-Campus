@@ -1,12 +1,18 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 const Footer = (props: any) => {
+
+    const {t} = useTranslation();
+
     props;
     return (
         <>
             <footer>
                 <hr />
                 <span>
+                    <p>{t("legal")}</p>
+                    <br></br>
                     <h1>Impressum nach §5 TMG</h1>
                     <h2>Diensteanbieter</h2>
                     <p>Mathis Neunzig</p>
